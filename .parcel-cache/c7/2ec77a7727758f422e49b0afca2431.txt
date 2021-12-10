@@ -81,7 +81,7 @@
 71C:\Users\Denis\Desktop\www\node_modules\caniuse-lite\data\regions\BE.js121436361000000000 0
 100C:\Users\Denis\Desktop\www\node_modules\jsdom\lib\jsdom\living\nodes\HTMLAndSVGElementShared-impl.js121436361000000000 0
 55C:\Users\Denis\Desktop\www\node_modules\combined-stream132836284501351585 1
-31C:\Users\Denis\Desktop\www\dist132836291691762604 1
+31C:\Users\Denis\Desktop\www\dist132836324701684189 1
 77C:\Users\Denis\Desktop\www\node_modules\@parcel\runtime-js\lib\cacheLoader.js121436361000000000 0
 58C:\Users\Denis\Desktop\www\node_modules\prop-types\LICENSE131940446780000000 0
 71C:\Users\Denis\Desktop\www\node_modules\process-nextick-args\license.md121436361000000000 0
@@ -350,7 +350,7 @@
 123C:\Users\Denis\Desktop\www\node_modules\@parcel\node-resolver-core\node_modules\is-number\node_modules\kind-of\package.json132836291432607190 0
 61C:\Users\Denis\Desktop\www\node_modules\union-value\README.md121436361000000000 0
 74C:\Users\Denis\Desktop\www\node_modules\http-proxy-middleware\node_modules132836291419667153 1
-47C:\Users\Denis\Desktop\www\src\js\controller.js132836279327508753 0
+47C:\Users\Denis\Desktop\www\src\js\controller.js132836324700573644 0
 95C:\Users\Denis\Desktop\www\node_modules\@parcel\fs-write-stream-atomic\node_modules\safe-buffer132836291434936181 1
 62C:\Users\Denis\Desktop\www\node_modules\postcss-reduce-initial132836291427550364 1
 68C:\Users\Denis\Desktop\www\node_modules\public-encrypt\withPublic.js121436361000000000 0
@@ -680,7 +680,7 @@
 94C:\Users\Denis\Desktop\www\node_modules\regenerate-unicode-properties\Script_Extensions\Vai.js121436361000000000 0
 74C:\Users\Denis\Desktop\www\node_modules\@babel\helper-validator-identifier132836284485100088 1
 57C:\Users\Denis\Desktop\www\node_modules\levn\lib\index.js130958418890000000 0
-74C:\Users\Denis\Desktop\www\node_modules\regjsparser\node_modules\jsesc\bin132836291391514572 1
+74C:\Users\Denis\Desktop\www\node_modules\regjsparser\node_modules\jsesc\bin132836291391753946 1
 59C:\Users\Denis\Desktop\www\node_modules\postcss\lib\rule.js121436361000000000 0
 70C:\Users\Denis\Desktop\www\node_modules\core-js\es\string\fontcolor.js121436361000000000 0
 62C:\Users\Denis\Desktop\www\node_modules\node-forge\lib\hmac.js121436361000000000 0
@@ -1223,7 +1223,7 @@
 60C:\Users\Denis\Desktop\www\node_modules\electron-to-chromium132836284501162080 1
 67C:\Users\Denis\Desktop\www\node_modules\source-map\lib\array-set.js131411568470000000 0
 78C:\Users\Denis\Desktop\www\node_modules\core-js\internals\this-number-value.js121436361000000000 0
-50C:\Users\Denis\Desktop\www\node_modules\terser\bin132836291387824443 1
+50C:\Users\Denis\Desktop\www\node_modules\terser\bin132836291387984029 1
 55C:\Users\Denis\Desktop\www\node_modules\es-to-primitive132836284498737653 1
 65C:\Users\Denis\Desktop\www\node_modules\es-abstract\5\MakeTime.js121436361000000000 0
 48C:\Users\Denis\Desktop\www\node_modules\elliptic132836284497231007 1
@@ -1781,7 +1781,7 @@
 85C:\Users\Denis\Desktop\www\node_modules\mixin-deep\node_modules\is-extendable\LICENSE131496356470000000 0
 68C:\Users\Denis\Desktop\www\node_modules\snapdragon-node\node_modules132836291415588745 1
 64C:\Users\Denis\Desktop\www\node_modules\normalize-path\README.md121436361000000000 0
-64C:\Users\Denis\Desktop\www\node_modules\regjsparser\node_modules132836291414820771 1
+64C:\Users\Denis\Desktop\www\node_modules\regjsparser\node_modules132836291436460347 1
 81C:\Users\Denis\Desktop\www\node_modules\core-js\stable\typed-array\copy-within.js121436361000000000 0
 80C:\Users\Denis\Desktop\www\node_modules\es-abstract\2019\IsAccessorDescriptor.js121436361000000000 0
 76C:\Users\Denis\Desktop\www\node_modules\es-abstract\2016\thisBooleanValue.js121436361000000000 0
@@ -3430,7 +3430,7 @@
 64C:\Users\Denis\Desktop\www\node_modules\unset-value\package.json132836291424797477 0
 61C:\Users\Denis\Desktop\www\node_modules\unset-value\README.md131325351670000000 0
 72C:\Users\Denis\Desktop\www\node_modules\ora\node_modules\chalk\readme.md121436361000000000 0
-51C:\Users\Denis\Desktop\www\node_modules\js-yaml\bin132836291391055800 1
+51C:\Users\Denis\Desktop\www\node_modules\js-yaml\bin132836291391315118 1
 63C:\Users\Denis\Desktop\www\node_modules\posthtml-parser\.github132836291393728654 1
 59C:\Users\Denis\Desktop\www\node_modules\lodash\isInteger.js121436361000000000 0
 60C:\Users\Denis\Desktop\www\node_modules\path-browserify\test132836284444838570 1
@@ -4014,7 +4014,7 @@
 71C:\Users\Denis\Desktop\www\node_modules\caniuse-lite\data\regions\LC.js121436361000000000 0
 74C:\Users\Denis\Desktop\www\node_modules\object-inspect\example\circular.js121436361000000000 0
 84C:\Users\Denis\Desktop\www\node_modules\@babel\runtime\helpers\esm\setPrototypeOf.js121012626000000000 0
-48C:\Users\Denis\Desktop\www\node_modules\svgo\bin132836291385530571 1
+48C:\Users\Denis\Desktop\www\node_modules\svgo\bin132836291385759956 1
 58C:\Users\Denis\Desktop\www\node_modules\rgb-regex\index.js130673050840000000 0
 61C:\Users\Denis\Desktop\www\node_modules\parseurl\package.json132836284495622757 0
 74C:\Users\Denis\Desktop\www\node_modules\is-generator-function\CHANGELOG.md121436361000000000 0
@@ -4886,7 +4886,7 @@
 63C:\Users\Denis\Desktop\www\node_modules\signal-exit\LICENSE.txt121436361000000000 0
 61C:\Users\Denis\Desktop\www\node_modules\lodash\fp\restFrom.js121436361000000000 0
 61C:\Users\Denis\Desktop\www\node_modules\signal-exit\README.md121436361000000000 0
-53C:\Users\Denis\Desktop\www\node_modules\ansi-html\bin132836291398585669 1
+53C:\Users\Denis\Desktop\www\node_modules\ansi-html\bin132836291398795116 1
 68C:\Users\Denis\Desktop\www\node_modules\fast-deep-equal\package.json132836284499975307 0
 77C:\Users\Denis\Desktop\www\node_modules\core-js\es\reflect\define-property.js121436361000000000 0
 96C:\Users\Denis\Desktop\www\node_modules\htmlparser2\node_modules\domutils\lib\stringify.d.ts.map121436361000000000 0
@@ -5451,7 +5451,7 @@
 72C:\Users\Denis\Desktop\www\node_modules\relateurl\lib\parse\urlstring.js130631652610000000 0
 75C:\Users\Denis\Desktop\www\node_modules\caniuse-lite\data\features\http2.js121436361000000000 0
 55C:\Users\Denis\Desktop\www\node_modules\mime-db\db.json121436361000000000 0
-55C:\Users\Denis\Desktop\www\node_modules\regjsparser\bin132836291391095700 1
+55C:\Users\Denis\Desktop\www\node_modules\regjsparser\bin132836291391335058 1
 63C:\Users\Denis\Desktop\www\node_modules\regjsparser\LICENSE.BSD121436361000000000 0
 71C:\Users\Denis\Desktop\www\node_modules\is-boolean-object\test\index.js121436361000000000 0
 61C:\Users\Denis\Desktop\www\node_modules\regjsparser\README.md121436361000000000 0
@@ -6489,7 +6489,7 @@
 80C:\Users\Denis\Desktop\www\node_modules\@babel\runtime\helpers\defineProperty.js121012626000000000 0
 51C:\Users\Denis\Desktop\www\node_modules\q\README.md131346221880000000 0
 69C:\Users\Denis\Desktop\www\node_modules\es-abstract\2020\IsInteger.js121436361000000000 0
-52C:\Users\Denis\Desktop\www\node_modules\purgecss\bin132836291387086411 1
+52C:\Users\Denis\Desktop\www\node_modules\purgecss\bin132836291387365663 1
 76C:\Users\Denis\Desktop\www\node_modules\es-abstract\helpers\timeConstants.js121436361000000000 0
 61C:\Users\Denis\Desktop\www\node_modules\purgecss\node_modules132836291417217110 1
 54C:\Users\Denis\Desktop\www\node_modules\immutable\dist132836290643042694 1
@@ -8742,7 +8742,7 @@
 59C:\Users\Denis\Desktop\www\node_modules\format\package.json132836284499753839 0
 68C:\Users\Denis\Desktop\www\node_modules\loose-envify\loose-envify.js121436361000000000 0
 55C:\Users\Denis\Desktop\www\node_modules\isexe\README.md131347039270000000 0
-56C:\Users\Denis\Desktop\www\node_modules\coffeescript\bin132836291397678114 1
+56C:\Users\Denis\Desktop\www\node_modules\coffeescript\bin132836291397727961 1
 65C:\Users\Denis\Desktop\www\node_modules\loose-envify\package.json132836291431167074 0
 62C:\Users\Denis\Desktop\www\node_modules\loose-envify\README.md121436361000000000 0
 81C:\Users\Denis\Desktop\www\node_modules\@babel\plugin-transform-react-jsx\LICENSE121012626000000000 0
@@ -8938,7 +8938,7 @@
 59C:\Users\Denis\Desktop\www\node_modules\lodash\isElement.js121436361000000000 0
 57C:\Users\Denis\Desktop\www\node_modules\lodash\isEmpty.js121436361000000000 0
 70C:\Users\Denis\Desktop\www\node_modules\es-abstract\2015\InLeapYear.js121436361000000000 0
-88C:\Users\Denis\Desktop\www\node_modules\@parcel\optimizer-terser\node_modules\terser\bin132836291397877569 1
+88C:\Users\Denis\Desktop\www\node_modules\@parcel\optimizer-terser\node_modules\terser\bin132836291398007244 1
 57C:\Users\Denis\Desktop\www\node_modules\lodash\isEqual.js121436361000000000 0
 61C:\Users\Denis\Desktop\www\node_modules\lodash\isEqualWith.js121436361000000000 0
 57C:\Users\Denis\Desktop\www\node_modules\lodash\isError.js121436361000000000 0
@@ -10984,7 +10984,7 @@
 74C:\Users\Denis\Desktop\www\node_modules\core-js\modules\es.array.filter.js121436361000000000 0
 66C:\Users\Denis\Desktop\www\node_modules\htmlnano\node_modules\.bin132836291436250880 1
 70C:\Users\Denis\Desktop\www\node_modules\htmlnano\node_modules\posthtml132836291430043306 1
-72C:\Users\Denis\Desktop\www\node_modules\htmlnano\node_modules\terser\bin132836291400829671 1
+72C:\Users\Denis\Desktop\www\node_modules\htmlnano\node_modules\terser\bin132836291400939381 1
 96C:\Users\Denis\Desktop\www\node_modules\@parcel\node-resolver-core\node_modules\braces\README.md121436361000000000 0
 71C:\Users\Denis\Desktop\www\node_modules\caniuse-lite\data\regions\SO.js121436361000000000 0
 73C:\Users\Denis\Desktop\www\node_modules\htmlnano\node_modules\terser\dist132836291400839649 1
@@ -13442,7 +13442,7 @@
 65C:\Users\Denis\Desktop\www\node_modules\css-select\lib\general.js121436361000000000 0
 69C:\Users\Denis\Desktop\www\node_modules\css-select\lib\procedure.json121436361000000000 0
 76C:\Users\Denis\Desktop\www\node_modules\css-modules-loader-core\package.json132836284491606758 0
-48C:\Users\Denis\Desktop\www\node_modules\atob\bin132836291398585669 1
+48C:\Users\Denis\Desktop\www\node_modules\atob\bin132836291398795116 1
 73C:\Users\Denis\Desktop\www\node_modules\css-modules-loader-core\README.md130843367470000000 0
 88C:\Users\Denis\Desktop\www\node_modules\css-modules-loader-core\node_modules\ansi-styles132836284501655393 1
 82C:\Users\Denis\Desktop\www\node_modules\core-js\features\typed-array\int8-array.js121436361000000000 0
@@ -13577,8 +13577,8 @@
 79C:\Users\Denis\Desktop\www\node_modules\core-js-compat\modules-by-versions.json121436361000000000 0
 67C:\Users\Denis\Desktop\www\node_modules\core-js-compat\modules.json121436361000000000 0
 67C:\Users\Denis\Desktop\www\node_modules\core-js-compat\package.json132836291433385279 0
-72C:\Users\Denis\Desktop\www\node_modules\core-js-compat\node_modules\.bin132836291436165110 1
-78C:\Users\Denis\Desktop\www\node_modules\core-js-compat\node_modules\semver\bin132836291399692712 1
+72C:\Users\Denis\Desktop\www\node_modules\core-js-compat\node_modules\.bin132836291436175091 1
+78C:\Users\Denis\Desktop\www\node_modules\core-js-compat\node_modules\semver\bin132836291399762527 1
 87C:\Users\Denis\Desktop\www\node_modules\core-js-compat\node_modules\semver\CHANGELOG.md121436361000000000 0
 84C:\Users\Denis\Desktop\www\node_modules\core-js-compat\node_modules\semver\functions132836291399852286 1
 83C:\Users\Denis\Desktop\www\node_modules\core-js-compat\node_modules\semver\internal132836291399602946 1
@@ -15503,7 +15503,7 @@
 74C:\Users\Denis\Desktop\www\node_modules\caniuse-lite\data\features\xhr2.js121436361000000000 0
 64C:\Users\Denis\Desktop\www\node_modules\@parcel\packager-raw-url132836291423766659 1
 64C:\Users\Denis\Desktop\www\node_modules\caniuse-api\CHANGELOG.md121436361000000000 0
-82C:\Users\Denis\Desktop\www\node_modules\@parcel\optimizer-terser\node_modules\.bin132836291436135200 1
+82C:\Users\Denis\Desktop\www\node_modules\@parcel\optimizer-terser\node_modules\.bin132836291436145177 1
 56C:\Users\Denis\Desktop\www\node_modules\caniuse-api\dist132836284443811320 1
 59C:\Users\Denis\Desktop\www\node_modules\caniuse-api\LICENSE121436361000000000 0
 64C:\Users\Denis\Desktop\www\node_modules\caniuse-api\package.json132836284494914645 0
@@ -15653,7 +15653,7 @@
 77C:\Users\Denis\Desktop\www\node_modules\babel-plugin-polyfill-corejs2\LICENSE121012626000000000 0
 93C:\Users\Denis\Desktop\www\node_modules\@babel\plugin-transform-classes\lib\transformClass.js121012626000000000 0
 89C:\Users\Denis\Desktop\www\node_modules\babel-plugin-polyfill-corejs2\node_modules\semver132836291434072698 1
-93C:\Users\Denis\Desktop\www\node_modules\babel-plugin-polyfill-corejs2\node_modules\semver\bin132836291397727961 1
+93C:\Users\Denis\Desktop\www\node_modules\babel-plugin-polyfill-corejs2\node_modules\semver\bin132836291397897511 1
 64C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-html132836291423716800 1
 103C:\Users\Denis\Desktop\www\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0\index.js121436361000000000 0
 102C:\Users\Denis\Desktop\www\node_modules\babel-plugin-polyfill-corejs2\node_modules\semver\CHANGELOG.md121436361000000000 0
@@ -15992,7 +15992,7 @@
 84C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-typescript-types\LICENSE121436361000000000 0
 80C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-typescript-types\src132836291385670207 1
 89C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-typescript-types\src\utils.js121436361000000000 0
-84C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-jsonld\node_modules\.bin132836291435995564 1
+84C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-jsonld\node_modules\.bin132836291436005565 1
 89C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-typescript-types\lib\shake.js121436361000000000 0
 92C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-typescript-types\lib\TSModule.js121436361000000000 0
 97C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-typescript-types\lib\TSModuleGraph.js121436361000000000 0
@@ -16098,7 +16098,7 @@
 82C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-less\src\loadConfig.js121436361000000000 0
 82C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-less\lib\loadConfig.js121436361000000000 0
 70C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-jsonld\lib132836291384523264 1
-79C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-jsonld\node_modules132836291420127058 1
+79C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-jsonld\node_modules132836291435995564 1
 79C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-jsonld\package.json132836291423073110 0
 91C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-jsonld\src\JSONLDTransformer.js121436361000000000 0
 85C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-jsonld\node_modules\json5132836291434807138 1
@@ -16166,7 +16166,7 @@
 102C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-html\node_modules\htmlparser2\lib\index.js121436361000000000 0
 103C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-html\node_modules\htmlparser2\lib\Stream.js121436361000000000 0
 90C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-html\node_modules\entities\lib132836291398904813 1
-81C:\Users\Denis\Desktop\www\node_modules\@babel\preset-env\node_modules\semver\bin132836291398974626 1
+81C:\Users\Denis\Desktop\www\node_modules\@babel\preset-env\node_modules\semver\bin132836291399134201 1
 99C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-html\node_modules\entities\test\test.js121436361000000000 0
 110C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-html\node_modules\entities\lib\decode_codepoint.js121436361000000000 0
 100C:\Users\Denis\Desktop\www\node_modules\@parcel\transformer-html\node_modules\domhandler\.travis.yml131703354330000000 0
@@ -16310,7 +16310,7 @@
 79C:\Users\Denis\Desktop\www\node_modules\@parcel\runtime-browser-hmr\src\loaders132836291385660234 1
 94C:\Users\Denis\Desktop\www\node_modules\@parcel\runtime-browser-hmr\src\loaders\.eslintrc.json121436361000000000 0
 94C:\Users\Denis\Desktop\www\node_modules\@parcel\runtime-browser-hmr\src\loaders\hmr-runtime.js121436361000000000 0
-79C:\Users\Denis\Desktop\www\node_modules\@parcel\runtime-browser-hmr\lib\loaders132836291384463430 1
+79C:\Users\Denis\Desktop\www\node_modules\@parcel\runtime-browser-hmr\lib\loaders132836291384692816 1
 72C:\Users\Denis\Desktop\www\node_modules\@parcel\resolver-default\LICENSE121436361000000000 0
 67C:\Users\Denis\Desktop\www\node_modules\@parcel\babel-ast-utils\lib132836291384742685 1
 77C:\Users\Denis\Desktop\www\node_modules\@parcel\resolver-default\package.json132836291423063101 0
@@ -16321,7 +16321,7 @@
 90C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-dev-server\src\templates\500.html121436361000000000 0
 55C:\Users\Denis\Desktop\www\node_modules\.bin\semver.ps1132836284504487457 0
 81C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-dev-server\lib\Server.js121436361000000000 0
-81C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-dev-server\lib\templates132836291384912226 1
+81C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-dev-server\lib\templates132836291385341090 1
 90C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-dev-server\lib\templates\500.html121436361000000000 0
 73C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\node_modules132836291420589446 1
 64C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\src132836291385610367 1
@@ -16347,7 +16347,7 @@
 79C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\lib\CLIReporter.js121436361000000000 0
 73C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\lib\emoji.js121436361000000000 0
 77C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\lib\logLevels.js121436361000000000 0
-50C:\Users\Denis\Desktop\www\dist\icons.11791820.svg132836291689347172 0
+50C:\Users\Denis\Desktop\www\dist\icons.11791820.svg132836324701594429 0
 74C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\lib\render.js121436361000000000 0
 73C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\lib\utils.js121436361000000000 0
 65C:\Users\Denis\Desktop\www\node_modules\@parcel\markdown-ansi\src132836291387834430 1
@@ -17207,8 +17207,8 @@
 88C:\Users\Denis\Desktop\www\node_modules\@babel\helper-define-polyfill-provider\README.md121012626000000000 0
 82C:\Users\Denis\Desktop\www\node_modules\@babel\helper-define-polyfill-provider\src132836291394815751 1
 106C:\Users\Denis\Desktop\www\node_modules\@babel\helper-define-polyfill-provider\src\browser\dependencies.js121012626000000000 0
-96C:\Users\Denis\Desktop\www\node_modules\@babel\helper-define-polyfill-provider\node_modules\.bin132836291435803919 1
-102C:\Users\Denis\Desktop\www\node_modules\@babel\helper-define-polyfill-provider\node_modules\semver\bin132836291383206794 1
+96C:\Users\Denis\Desktop\www\node_modules\@babel\helper-define-polyfill-provider\node_modules\.bin132836291435823868 1
+102C:\Users\Denis\Desktop\www\node_modules\@babel\helper-define-polyfill-provider\node_modules\semver\bin132836291383366367 1
 111C:\Users\Denis\Desktop\www\node_modules\@babel\helper-define-polyfill-provider\node_modules\semver\CHANGELOG.md121436361000000000 0
 111C:\Users\Denis\Desktop\www\node_modules\@babel\helper-define-polyfill-provider\node_modules\semver\package.json132836291422474635 0
 108C:\Users\Denis\Desktop\www\node_modules\@babel\helper-define-polyfill-provider\node_modules\semver\README.md121436361000000000 0
@@ -17466,10 +17466,10 @@
 49C:\Users\Denis\Desktop\www\node_modules\.bin\uuid132836284504816410 0
 53C:\Users\Denis\Desktop\www\node_modules\.bin\uuid.ps1132836284504816410 0
 54C:\Users\Denis\Desktop\www\node_modules\.bin\which.ps1132836284504856306 0
-54C:\Users\Denis\Desktop\www\dist\controller.51411900.js132836291691732686 0
-58C:\Users\Denis\Desktop\www\dist\controller.51411900.js.map132836291691752634 0
-52C:\Users\Denis\Desktop\www\dist\favicon.0fee3f3f.png132836291689337196 0
-42C:\Users\Denis\Desktop\www\dist\index.html132836291691712726 0
-49C:\Users\Denis\Desktop\www\dist\logo.4e342a2e.png132836291689397049 0
-49C:\Users\Denis\Desktop\www\dist\main.5049d27c.css132836291691742817 0
-53C:\Users\Denis\Desktop\www\dist\main.5049d27c.css.map132836291691762604 0
+54C:\Users\Denis\Desktop\www\dist\controller.51411900.js132836324701664242 0
+58C:\Users\Denis\Desktop\www\dist\controller.51411900.js.map132836324701674217 0
+52C:\Users\Denis\Desktop\www\dist\favicon.0fee3f3f.png132836324701594429 0
+42C:\Users\Denis\Desktop\www\dist\index.html132836310095538335 0
+49C:\Users\Denis\Desktop\www\dist\logo.4e342a2e.png132836324701594429 0
+49C:\Users\Denis\Desktop\www\dist\main.5049d27c.css132836324701594429 0
+53C:\Users\Denis\Desktop\www\dist\main.5049d27c.css.map132836324701624356 0
