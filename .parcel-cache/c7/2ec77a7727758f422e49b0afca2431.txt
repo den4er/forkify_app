@@ -81,7 +81,7 @@
 71C:\Users\Denis\Desktop\www\node_modules\caniuse-lite\data\regions\BE.js121436361000000000 0
 100C:\Users\Denis\Desktop\www\node_modules\jsdom\lib\jsdom\living\nodes\HTMLAndSVGElementShared-impl.js121436361000000000 0
 55C:\Users\Denis\Desktop\www\node_modules\combined-stream132836284501351585 1
-31C:\Users\Denis\Desktop\www\dist132836324701684189 1
+31C:\Users\Denis\Desktop\www\dist132836850917728388 1
 77C:\Users\Denis\Desktop\www\node_modules\@parcel\runtime-js\lib\cacheLoader.js121436361000000000 0
 58C:\Users\Denis\Desktop\www\node_modules\prop-types\LICENSE131940446780000000 0
 71C:\Users\Denis\Desktop\www\node_modules\process-nextick-args\license.md121436361000000000 0
@@ -16347,7 +16347,7 @@
 79C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\lib\CLIReporter.js121436361000000000 0
 73C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\lib\emoji.js121436361000000000 0
 77C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\lib\logLevels.js121436361000000000 0
-50C:\Users\Denis\Desktop\www\dist\icons.11791820.svg132836324701594429 0
+50C:\Users\Denis\Desktop\www\dist\icons.11791820.svg132836850914914370 0
 74C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\lib\render.js121436361000000000 0
 73C:\Users\Denis\Desktop\www\node_modules\@parcel\reporter-cli\lib\utils.js121436361000000000 0
 65C:\Users\Denis\Desktop\www\node_modules\@parcel\markdown-ansi\src132836291387834430 1
@@ -17466,10 +17466,10 @@
 49C:\Users\Denis\Desktop\www\node_modules\.bin\uuid132836284504816410 0
 53C:\Users\Denis\Desktop\www\node_modules\.bin\uuid.ps1132836284504816410 0
 54C:\Users\Denis\Desktop\www\node_modules\.bin\which.ps1132836284504856306 0
-54C:\Users\Denis\Desktop\www\dist\controller.51411900.js132836324701664242 0
-58C:\Users\Denis\Desktop\www\dist\controller.51411900.js.map132836324701674217 0
-52C:\Users\Denis\Desktop\www\dist\favicon.0fee3f3f.png132836324701594429 0
-42C:\Users\Denis\Desktop\www\dist\index.html132836310095538335 0
-49C:\Users\Denis\Desktop\www\dist\logo.4e342a2e.png132836324701594429 0
-49C:\Users\Denis\Desktop\www\dist\main.5049d27c.css132836324701594429 0
-53C:\Users\Denis\Desktop\www\dist\main.5049d27c.css.map132836324701624356 0
+54C:\Users\Denis\Desktop\www\dist\controller.51411900.js132836850917628656 0
+58C:\Users\Denis\Desktop\www\dist\controller.51411900.js.map132836850917708446 0
+52C:\Users\Denis\Desktop\www\dist\favicon.0fee3f3f.png132836850914904639 0
+42C:\Users\Denis\Desktop\www\dist\index.html132836850917638630 0
+49C:\Users\Denis\Desktop\www\dist\logo.4e342a2e.png132836850914914370 0
+49C:\Users\Denis\Desktop\www\dist\main.5049d27c.css132836850917628656 0
+53C:\Users\Denis\Desktop\www\dist\main.5049d27c.css.map132836850917718412 0
