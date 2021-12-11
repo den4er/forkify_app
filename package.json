@@ -17,7 +17,10 @@
     "url": "https://github.com/den4er/forkify_app/issues"
   },
   "homepage": "https://github.com/den4er/forkify_app#readme",
-  "dependencies": {},
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "regenerator-runtime": "^0.13.9"
+  },
   "devDependencies": {
     "parcel": "^2.0.0-beta.1",
     "sass": "^1.44.0"
