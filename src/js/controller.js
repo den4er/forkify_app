@@ -20,19 +20,6 @@ const timeout = function (s) {
 
 ///////////////////////////////////////
 
-// отображаем спиннер загрузки
-const renderSpinner = function (parentEl) {
-  const markup = `
-    <div class="spinner">
-      <svg>
-        <use href="${icons}#icon-loader"></use>
-      </svg>
-    </div>
-  `;
-  parentEl.innerHTML = '';
-  parentEl.insertAdjacentHTML('afterbegin', markup);
-}
-
 
 
 // получаем и отображаем рецепт блюда
@@ -43,11 +30,11 @@ const controlRecipe = async function () {
 
     if(!id) return;// если id нет, прерываем
 
-    // грузим спиннер
-    renderSpinner(recipeContainer);
+    // отображаем спиннер загрузки
+    recipeView.renderSpinner(recipeContainer);
 
     // получаем данные
-    await model.loadRecipe(id);
+    await model.loadRecipe(id); // вызываем метод, получающий и формирующий объект с данными
 
     // отображаем данные
     recipeView.render(model.state.recipe, icons, recipeContainer);

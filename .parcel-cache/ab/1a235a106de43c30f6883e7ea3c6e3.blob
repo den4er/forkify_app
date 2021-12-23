@@ -1,47 +1,52 @@
-class RecipeView
-{
-    data; // данные рецепта
-    icons; // иконки
-    parentElement; // родитель, куда вставляем данные
-    
-    render(data, icons, parentElement)
-    {
-        // заполняем объект свойствами
-        this.data = data;
-        this.icons = icons;
-        this.parentElement = parentElement;
-        
-        const markup = this.generateMarkup(); // генерируем блок
-         
-        this.clear(); // очищаем родителя
-        this.parentElement.insertAdjacentHTML('afterbegin', markup); // вставляем блок на страницу
-    }
-    
-    // метод очистки контейнера
-    clear()
-    {
-        this.parentElement.innerHTML = '';
-    }
-    
-    // метод отображения спиннера
-    renderSpinner(parentElement) 
-    {
-      this.parentElement = parentElement;
-      const markup = `
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+class RecipeView {
+  data; // данные рецепта
+
+  icons; // иконки
+
+  parentElement; // родитель, куда вставляем данные
+
+  render(data, icons, parentElement) {
+    // заполняем объект свойствами
+    this.data = data;
+    this.icons = icons;
+    this.parentElement = parentElement;
+    const markup = this.generateMarkup(); // генерируем блок
+
+    this.clear(); // очищаем родителя
+
+    this.parentElement.insertAdjacentHTML('afterbegin', markup); // вставляем блок на страницу
+  } // метод очистки контейнера
+
+
+  clear() {
+    this.parentElement.innerHTML = '';
+  } // метод отображения спиннера
+
+
+  renderSpinner(parentElement) {
+    this.parentElement = parentElement;
+    const markup = `
         <div class="spinner">
           <svg>
             <use href="${this.icons}#icon-loader"></use>
           </svg>
         </div>
       `;
-      this.clear(); // очищаем родителя
-      this.parentElement.insertAdjacentHTML('afterbegin', markup);
-    }
-    
-    // метод генерации выходных данных шаблона
-    generateMarkup()
-    {
-        return `
+    this.clear(); // очищаем родителя
+
+    this.parentElement.insertAdjacentHTML('afterbegin', markup);
+  } // метод генерации выходных данных шаблона
+
+
+  generateMarkup() {
+    return `
           <figure class="recipe__fig">
             <img src="${this.data.image}" alt="${this.data.title}" class="recipe__img" />
             <h1 class="recipe__title">
@@ -94,8 +99,8 @@ class RecipeView
             <h2 class="heading--2">Recipe ingredients</h2>
             <ul class="recipe__ingredient-list">
     
-        ${this.data.ingredients.map( ing => {
-          return `
+        ${this.data.ingredients.map(ing => {
+      return `
             <li class="recipe__ingredient">
               <svg class="recipe__icon">
                 <use href="${this.icons}#icon-check"></use>
@@ -107,7 +112,7 @@ class RecipeView
               </div>
             </li>
             `;
-        }).join('')}
+    }).join('')}
     
             </ul>
           </div>
@@ -131,8 +136,11 @@ class RecipeView
             </a>
           </div>
         `;
-    
-    }
+  }
+
 }
 
-export default new RecipeView(); // экспортируем объект
+var _default = new RecipeView(); // экспортируем объект
+
+
+exports.default = _default;

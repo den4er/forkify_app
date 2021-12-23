@@ -4379,7 +4379,7 @@
 74/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/lodash/reduce.js1640064681962596867 0
 82/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/dom-serializer/README.md1640064680152614914 0
 114/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/jsdom/lib/jsdom/living/events/EventModifierMixin-impl.js1640064680849607964 0
-70/home/host1837901/db-potrfolio.ru/htdocs/www/dist/favicon.1026e691.png1640266625040154792 0
+70/home/host1837901/db-potrfolio.ru/htdocs/www/dist/favicon.1026e691.png1640268823928231128 0
 83/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/browserslist/update-db.js1640064680468611763 0
 86/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/lodash/_strictLastIndexOf.js1640064681453601942 0
 88/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/decode-uri-component/readme.md1640064680118615253 0
@@ -4514,7 +4514,7 @@
 78/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/lodash/fp/toPairs.js1640064682033596160 0
 82/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/lodash/_memoizeCapped.js1640064681429602182 0
 101/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/@parcel/markdown-ansi/test/markdown-ansi.js1640064680279613647 0
-67/home/host1837901/db-potrfolio.ru/htdocs/www/dist/main.63023df8.css1640266625042154772 0
+67/home/host1837901/db-potrfolio.ru/htdocs/www/dist/main.63023df8.css1640268823928231128 0
 102/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/jsdom/lib/jsdom/living/file-api/Blob-impl.js1640064680875607705 0
 75/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/lodash/fp/fill.js1640064681715599330 0
 77/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/lodash/fp/escape.js1640064681711599370 0
@@ -5769,7 +5769,7 @@
 101/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/extglob/node_modules/is-accessor-descriptor1640064680097615462 1
 97/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/caniuse-lite/data/features/objectrtc.js1640064681814598343 0
 88/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/fast-deep-equal/es6/react.d.ts1640064680489611554 0
-76/home/host1837901/db-potrfolio.ru/htdocs/www/dist/controller.20afda46.js.map1640266625043154762 0
+76/home/host1837901/db-potrfolio.ru/htdocs/www/dist/controller.20afda46.js.map1640268823930231108 0
 83/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/lodash/fp/partialRight.js1640064681930597187 0
 99/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/has-values/node_modules/kind-of/README.md1640064680045615980 0
 86/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/es-abstract/2018/ToUint16.js1640064682094595551 0
@@ -5857,7 +5857,7 @@
 82/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/resolve-url/package.json1640064679963616798 0
 85/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/postcss-calc/dist/parser.js1640064680525611195 0
 84/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/fast-deep-equal/react.d.ts1640064680510611344 0
-72/home/host1837901/db-potrfolio.ru/htdocs/www/dist/controller.20afda46.js1640266625042154772 0
+72/home/host1837901/db-potrfolio.ru/htdocs/www/dist/controller.20afda46.js1640268823929231118 0
 83/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/@babel/generator/lib/node1640064680691609540 1
 74/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/es-abstract/20181640064682142595073 1
 79/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/randombytes/README.md1640064680252613917 0
@@ -6197,7 +6197,7 @@
 86/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/resolve/test/dotdot/index.js1640064680766608792 0
 108/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/caniuse-lite/data/features/css-display-contents.js1640064681364602830 0
 80/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/lodash/_mapCacheHas.js1640064681424602232 0
-49/home/host1837901/db-potrfolio.ru/htdocs/www/dist1640266625044154752 1
+49/home/host1837901/db-potrfolio.ru/htdocs/www/dist1640268823930231108 1
 107/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/resolve/test/resolver/other_path/lib/other-lib.js1640064680928607177 0
 163/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/@parcel/transformer-posthtml/node_modules/posthtml-parser/coverage/lcov-report/posthtml-parser/index.html1640064680520611245 0
 131/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/regenerate-unicode-properties/Script_Extensions/Nyiakeng_Puachue_Hmong.js1640064681434602132 0
@@ -7637,7 +7637,7 @@
 76/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/lodash/isObject.js1640064681819598293 0
 96/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/@parcel/core/test/PublicBundle.test.js1640064680956606898 0
 103/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/@babel/plugin-transform-modules-amd/README.md1640064680039616040 0
-71/home/host1837901/db-potrfolio.ru/htdocs/www/src/js/views/recipeView.js1640266623186173277 0
+71/home/host1837901/db-potrfolio.ru/htdocs/www/src/js/views/recipeView.js1640268822913241248 0
 100/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/core-js/es/string/virtual/code-point-at.js1640064681378602690 0
 80/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/import-fresh/readme.md1640064680114615293 0
 111/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/resolve/test/resolver/symlinked/_/node_modules/foo.js1640064680752608932 0
@@ -8165,7 +8165,7 @@
 100/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/highlight.js/styles/atelier-cave-light.css1640064681445602022 0
 92/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/highlight.js/lib/languages/http.js1640064680817608283 0
 119/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/@parcel/optimizer-terser/node_modules/terser/tools/props.html1640064680429612152 0
-71/home/host1837901/db-potrfolio.ru/htdocs/www/dist/main.63023df8.css.map1640266625043154762 0
+71/home/host1837901/db-potrfolio.ru/htdocs/www/dist/main.63023df8.css.map1640268823929231118 0
 109/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/jsdom/lib/jsdom/living/generated/HTMLHeadElement.js1640064681412602351 0
 118/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/index.js1640064680041616020 0
 80/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/@babel/runtime/LICENSE1640064679983616599 0
@@ -9123,7 +9123,7 @@
 105/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/es-abstract/2018/GetPrototypeFromConstructor.js1640064681615600327 0
 94/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/es-abstract/2019/IteratorComplete.js1640064681784598642 0
 101/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/core-js/features/object/get-prototype-of.js1640064682011596379 0
-65/home/host1837901/db-potrfolio.ru/htdocs/www/src/js/controller.js1640266624880156387 0
+65/home/host1837901/db-potrfolio.ru/htdocs/www/src/js/controller.js1640268823795232454 0
 85/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/browserify-aes/modes/ofb.js1640064680640610048 0
 90/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/es-abstract/2018/ToDateString.js1640064682033596160 0
 85/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/whatwg-encoding/LICENSE.txt1640064679996616469 0
@@ -9402,7 +9402,7 @@
 114/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/jsdom/lib/jsdom/living/nodes/HTMLFieldSetElement-impl.js1640064681747599011 0
 78/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/cssnano/CHANGELOG.md1640064680331613129 0
 111/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/readable-stream/lib/internal/streams/end-of-stream.js1640064680614610307 0
-67/home/host1837901/db-potrfolio.ru/htdocs/www/dist/logo.678beebe.png1640266625042154772 0
+67/home/host1837901/db-potrfolio.ru/htdocs/www/dist/logo.678beebe.png1640268823929231118 0
 107/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/@parcel/transformer-babel/src/BabelTransformer.js1640064680445611992 0
 91/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/es-abstract/2020/Number/divide.js1640064681449601982 0
 77/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/lodash/mapValues.js1640064681888597605 0
@@ -9622,7 +9622,7 @@
 66/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/cssstyle1640064680875607705 1
 84/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/repeat-string/package.json1640064679964616788 0
 85/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/es-abstract/2020/WeekDay.js1640064682141595083 0
-60/home/host1837901/db-potrfolio.ru/htdocs/www/dist/index.html1640266625041154782 0
+60/home/host1837901/db-potrfolio.ru/htdocs/www/dist/index.html1640268823928231128 0
 105/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/jsdom/lib/jsdom/living/generated/AbortSignal.js1640064680884607615 0
 110/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/htmlparser2/node_modules/domutils/lib/index.d.ts.map1640064680580610646 0
 86/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/es-abstract/2020/ToUint32.js1640064682106595432 0
@@ -16159,7 +16159,7 @@
 114/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/unicode-canonical-property-names-ecmascript/package.json1640064679997616459 0
 78/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/optionator/README.md1640064680059615841 0
 114/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/@babel/runtime/helpers/esm/classPrivateMethodInitSpec.js1640064680812608333 0
-68/home/host1837901/db-potrfolio.ru/htdocs/www/dist/icons.dfdd22ae.svg1640266625042154772 0
+68/home/host1837901/db-potrfolio.ru/htdocs/www/dist/icons.dfdd22ae.svg1640268823928231128 0
 72/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/sha.js/sha1.js1640064680359612850 0
 82/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/json-stringify-safe/test1640064680436612082 1
 80/home/host1837901/db-potrfolio.ru/htdocs/www/node_modules/sha.js/test/vectors.js1640064680582610626 0

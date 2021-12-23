@@ -461,6 +461,7 @@ const timeout = function (s) {
   });
 }; // https://forkify-api.herokuapp.com/v2
 ///////////////////////////////////////
+// отображаем спиннер загрузки
 // получаем и отображаем рецепт блюда
 
 
@@ -469,7 +470,7 @@ const controlRecipe = async function () {
     const id = window.location.hash.slice(1); // получаем идентификатор без #
 
     if (!id) return; // если id нет, прерываем
-    // отображаем спиннер загрузки
+    // грузим спиннер
 
     _recipeView.default.renderSpinner(recipeContainer); // получаем данные
 
@@ -1853,15 +1854,13 @@ class RecipeView {
     this.clear(); // очищаем родителя
 
     this.parentElement.insertAdjacentHTML('afterbegin', markup); // вставляем блок на страницу
-  } // метод очистки контейнера
-
+  }
 
   clear() {
     this.parentElement.innerHTML = '';
-  } // метод отображения спиннера
+  }
 
-
-  renderSpinner(parentElement) {
+  renderSpinner = function (parentElement) {
     this.parentElement = parentElement;
     const markup = `
         <div class="spinner">
@@ -1873,8 +1872,7 @@ class RecipeView {
     this.clear(); // очищаем родителя
 
     this.parentElement.insertAdjacentHTML('afterbegin', markup);
-  } // метод генерации выходных данных шаблона
-
+  };
 
   generateMarkup() {
     return `

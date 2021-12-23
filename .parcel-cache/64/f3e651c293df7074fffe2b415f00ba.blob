@@ -461,7 +461,20 @@ const timeout = function (s) {
   });
 }; // https://forkify-api.herokuapp.com/v2
 ///////////////////////////////////////
-// получаем и отображаем рецепт блюда
+// отображаем спиннер загрузки
+
+
+const renderSpinner = function (parentEl) {
+  const markup = `
+    <div class="spinner">
+      <svg>
+        <use href="${_icons.default}#icon-loader"></use>
+      </svg>
+    </div>
+  `;
+  parentEl.innerHTML = '';
+  parentEl.insertAdjacentHTML('afterbegin', markup);
+}; // получаем и отображаем рецепт блюда
 
 
 const controlRecipe = async function () {
@@ -469,10 +482,9 @@ const controlRecipe = async function () {
     const id = window.location.hash.slice(1); // получаем идентификатор без #
 
     if (!id) return; // если id нет, прерываем
-    // отображаем спиннер загрузки
+    // грузим спиннер
 
-    _recipeView.default.renderSpinner(recipeContainer); // получаем данные
-
+    renderSpinner(recipeContainer); // получаем данные
 
     await model.loadRecipe(id); // вызываем метод, получающий и формирующий объект с данными
     // отображаем данные
@@ -1853,16 +1865,13 @@ class RecipeView {
     this.clear(); // очищаем родителя
 
     this.parentElement.insertAdjacentHTML('afterbegin', markup); // вставляем блок на страницу
-  } // метод очистки контейнера
-
+  }
 
   clear() {
     this.parentElement.innerHTML = '';
-  } // метод отображения спиннера
+  }
 
-
-  renderSpinner(parentElement) {
-    this.parentElement = parentElement;
+  renderSpinner = function () {
     const markup = `
         <div class="spinner">
           <svg>
@@ -1873,8 +1882,7 @@ class RecipeView {
     this.clear(); // очищаем родителя
 
     this.parentElement.insertAdjacentHTML('afterbegin', markup);
-  } // метод генерации выходных данных шаблона
-
+  };
 
   generateMarkup() {
     return `

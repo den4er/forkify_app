@@ -1853,13 +1853,11 @@ class RecipeView {
     this.clear(); // очищаем родителя
 
     this.parentElement.insertAdjacentHTML('afterbegin', markup); // вставляем блок на страницу
-  } // метод очистки контейнера
-
+  }
 
   clear() {
     this.parentElement.innerHTML = '';
-  } // метод отображения спиннера
-
+  }
 
   renderSpinner(parentElement) {
     this.parentElement = parentElement;
@@ -1873,8 +1871,7 @@ class RecipeView {
     this.clear(); // очищаем родителя
 
     this.parentElement.insertAdjacentHTML('afterbegin', markup);
-  } // метод генерации выходных данных шаблона
-
+  }
 
   generateMarkup() {
     return `
