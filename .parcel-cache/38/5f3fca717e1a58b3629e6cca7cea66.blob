@@ -463,7 +463,7 @@ const controlRecipe = async function () {
     _recipeView.default.renderSpinner(recipeContainer);
 
     if (!id) return; // если id нет, прерываем
-    // получаем данные о рецепте
+    // получаем данные
 
     await model.loadRecipe(id); // вызываем метод, получающий и формирующий объект с данными
     // отображаем данные
@@ -473,20 +473,9 @@ const controlRecipe = async function () {
     // вызываем метод отображения ошибки
     _recipeView.default.renderError();
   }
-}; // получаем и отображаем список рецептов по поисковому запросу
+}; // const events = ['hashchange', 'load']; // указываем события, при которых будет срабатывать обработчик
+// events.forEach( event => window.addEventListener(event, controlRecipe)); // вешаем обработчик в цикле
 
-
-const controlSearchResults = async function () {
-  try {
-    // плучаем данные о рецептах по звпросу
-    await model.loadSearchResults();
-    console.log(model.state.search.results);
-  } catch (err) {
-    console.log(err);
-  }
-};
-
-controlSearchResults();
 
 const init = function () {
   _recipeView.default.addHandlerRender(controlRecipe); // передаем обработчик событий слушателю
@@ -1803,29 +1792,15 @@ module.exports._relative = relative;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.state = exports.loadSearchResults = exports.loadRecipe = void 0;
+exports.state = exports.loadRecipe = void 0;
 
 var _config = require("./config.js");
 
 var _helpers = require("./helpers.js");
 
-/*
-
-Forkify API
-
-Documentstion:  https://forkify-api.herokuapp.com/
-Demo: 		https://forkify-api.herokuapp.com/v2
-
-API key		756138d6-8a4b-4b07-9f2c-61a17bc3ace9
-
-*/
 // объект для хранения данных о рецепте
 const state = {
-  recipe: {},
-  search: {
-    query: '',
-    results: []
-  }
+  recipe: {}
 }; // функция получения рецепта по идентификатору
 
 exports.state = state;
@@ -1854,34 +1829,9 @@ const loadRecipe = async function (id) {
   } catch (err) {
     throw err; // пробрасываем ошибку в контроллер 
   }
-}; // получение списка рецептов по определенному запросу
-
-
-exports.loadRecipe = loadRecipe;
-
-const loadSearchResults = async function () {
-  let query = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'pizza';
-
-  try {
-    // сохраняем текст запроса
-    state.search.query = query; // получаем данные согласно условию поиска
-
-    const data = await (0, _helpers.getJSON)(`${_config.API_URL}?search=${query}&key=756138d6-8a4b-4b07-9f2c-61a17bc3ace9`); // выбираем нужные данные и сохраняем в массив
-
-    state.search.results = data.data.recipes.map(rec => {
-      return {
-        id: rec.id,
-        title: rec.title,
-        publisher: rec.publisher,
-        image: rec.image_url
-      };
-    });
-  } catch (err) {
-    throw err; // пробрасываем ошибку в контроллер 
-  }
 };
 
-exports.loadSearchResults = loadSearchResults;
+exports.loadRecipe = loadRecipe;
 },{"./config.js":"09212d541c5c40ff2bd93475a904f8de","./helpers.js":"0e8dcd8a4e1c61cf18f78e1c2563655d"}],"09212d541c5c40ff2bd93475a904f8de":[function(require,module,exports) {
 "use strict";
 

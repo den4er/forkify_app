@@ -14,9 +14,8 @@ const recipeContainer = document.querySelector('.recipe');
 ///////////////////////////////////////
 
 
-
 // получаем и отображаем рецепт блюда
-const controlRecipe = async function () {
+const controlRecipe = async function(){
   try {
     
     const id = window.location.hash.slice(1); // получаем идентификатор без #
@@ -26,21 +25,29 @@ const controlRecipe = async function () {
     
     if(!id) return;// если id нет, прерываем
     
-    // получаем данные
+    // получаем данные о рецепте
     await model.loadRecipe(id); // вызываем метод, получающий и формирующий объект с данными
 
     // отображаем данные
     recipeView.render(model.state.recipe, icons, recipeContainer);
     
-
   } catch (err) {
     // вызываем метод отображения ошибки
     recipeView.renderError();
   }
 }
 
-// const events = ['hashchange', 'load']; // указываем события, при которых будет срабатывать обработчик
-// events.forEach( event => window.addEventListener(event, controlRecipe)); // вешаем обработчик в цикле
+// получаем и отображаем список рецептов по поисковому запросу
+const controlSearchResults = async function(){
+	try{
+      	// плучаем данные о рецептах по звпросу
+    	await model.loadSearchResults();
+      	console.log(model.state.search.results);
+    }catch(err){
+    	console.log(err);
+    }
+}
+controlSearchResults();
 
 const init = function(){
     recipeView.addHandlerRender(controlRecipe); // передаем обработчик событий слушателю

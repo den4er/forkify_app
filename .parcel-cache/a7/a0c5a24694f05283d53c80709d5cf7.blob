@@ -463,30 +463,21 @@ const controlRecipe = async function () {
     _recipeView.default.renderSpinner(recipeContainer);
 
     if (!id) return; // если id нет, прерываем
-    // получаем данные о рецепте
+    // получаем данные
 
     await model.loadRecipe(id); // вызываем метод, получающий и формирующий объект с данными
     // отображаем данные
 
-    _recipeView.default.render(model.state.recipe, _icons.default, recipeContainer);
+    _recipeView.default.render(model.state.recipe, _icons.default, recipeContainer); // тестовое отображение данных в консоли
+    //await model.loadSearchResults();
+
   } catch (err) {
     // вызываем метод отображения ошибки
     _recipeView.default.renderError();
   }
-}; // получаем и отображаем список рецептов по поисковому запросу
+}; // const events = ['hashchange', 'load']; // указываем события, при которых будет срабатывать обработчик
+// events.forEach( event => window.addEventListener(event, controlRecipe)); // вешаем обработчик в цикле
 
-
-const controlSearchResults = async function () {
-  try {
-    // плучаем данные о рецептах по звпросу
-    await model.loadSearchResults();
-    console.log(model.state.search.results);
-  } catch (err) {
-    console.log(err);
-  }
-};
-
-controlSearchResults();
 
 const init = function () {
   _recipeView.default.addHandlerRender(controlRecipe); // передаем обработчик событий слушателю
@@ -1821,11 +1812,7 @@ API key		756138d6-8a4b-4b07-9f2c-61a17bc3ace9
 */
 // объект для хранения данных о рецепте
 const state = {
-  recipe: {},
-  search: {
-    query: '',
-    results: []
-  }
+  recipe: {}
 }; // функция получения рецепта по идентификатору
 
 exports.state = state;
@@ -1854,8 +1841,7 @@ const loadRecipe = async function (id) {
   } catch (err) {
     throw err; // пробрасываем ошибку в контроллер 
   }
-}; // получение списка рецептов по определенному запросу
-
+};
 
 exports.loadRecipe = loadRecipe;
 
@@ -1863,19 +1849,8 @@ const loadSearchResults = async function () {
   let query = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'pizza';
 
   try {
-    // сохраняем текст запроса
-    state.search.query = query; // получаем данные согласно условию поиска
-
-    const data = await (0, _helpers.getJSON)(`${_config.API_URL}?search=${query}&key=756138d6-8a4b-4b07-9f2c-61a17bc3ace9`); // выбираем нужные данные и сохраняем в массив
-
-    state.search.results = data.data.recipes.map(rec => {
-      return {
-        id: rec.id,
-        title: rec.title,
-        publisher: rec.publisher,
-        image: rec.image_url
-      };
-    });
+    const data = await (0, _helpers.getJSON)(`${_config.API_URL}?search=${query}&key=756138d6-8a4b-4b07-9f2c-61a17bc3ace9`);
+    console.log(data);
   } catch (err) {
     throw err; // пробрасываем ошибку в контроллер 
   }
