@@ -25,7 +25,7 @@ export const loadRecipe = async function(id){
         }
         console.log(state.recipe);    
     }catch(err){
-       console.error(`O_Ops ${err.message}`);
+    	throw err;	// пробрасываем ошибку в контроллер 
     }
 
 };

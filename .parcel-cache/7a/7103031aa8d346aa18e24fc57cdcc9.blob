@@ -1948,10 +1948,10 @@ class RecipeView {
   renderMessage() {
     let message = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.message;
     const markup = `
-            <div class="message">
+            <div class="error">
                 <div>
                   <svg>
-                    <use href="${_icons.default}#icon-smile"></use>
+                    <use href="${_icons.default}#icon-alert-triangle"></use>
                   </svg>
                 </div>
                 <p>${message}</p>

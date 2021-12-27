@@ -472,6 +472,8 @@ const controlRecipe = async function () {
   } catch (err) {
     // вызываем метод отображения ошибки
     _recipeView.default.renderError();
+
+    _recipeView.default.renderMessage('Hello, world!');
   }
 }; // const events = ['hashchange', 'load']; // указываем события, при которых будет срабатывать обработчик
 // events.forEach( event => window.addEventListener(event, controlRecipe)); // вешаем обработчик в цикле

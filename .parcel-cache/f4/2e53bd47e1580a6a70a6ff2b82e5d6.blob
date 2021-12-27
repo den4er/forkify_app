@@ -1,104 +1,82 @@
-import icons from 'url:../../img/icons.svg';
-import {Fraction} from 'fractional';
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _icons = _interopRequireDefault(require("url:../../img/icons.svg"));
+
+var _fractional = require("fractional");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class RecipeView {
+  data; // данные рецепта
+
+  icons; // иконки
+
+  parentElement; // родитель, куда вставляем данные
+
+  render(data, icons, parentElement) {
+    // заполняем объект свойствами
+    this.data = data;
+    this.icons = icons;
+    this.parentElement = parentElement;
+    const markup = this.generateMarkup(); // генерируем блок
+
+    this.clear(); // очищаем родителя
+
+    this.parentElement.insertAdjacentHTML('afterbegin', markup); // вставляем блок на страницу
+  } // метод очистки контейнера
 
 
-class RecipeView
-{
-    data; // данные рецепта
-    icons; // иконки
-    parentElement; // родитель, куда вставляем данные
-  	errorMessage = `We could not find this recipe. Please try another one!`;
-  	message = '';
-    
-    
-    render(data, icons, parentElement)
-    {
-        // заполняем объект свойствами
-        this.data = data;
-        this.icons = icons;
-        this.parentElement = parentElement;
-        
-        const markup = this.generateMarkup(); // генерируем блок
-         
-        this.clear(); // очищаем родителя
-        this.parentElement.insertAdjacentHTML('afterbegin', markup); // вставляем блок на страницу
-    }
-    
-    
-    // метод очистки контейнера
-    clear()
-    {
-        this.parentElement.innerHTML = '';
-    }
-    
-    
-    // метод отображения спиннера
-    renderSpinner(parentElement) 
-    {
-      this.parentElement = parentElement;
-      const markup = `
+  clear() {
+    this.parentElement.innerHTML = '';
+  } // метод отображения спиннера
+
+
+  renderSpinner(parentElement) {
+    this.parentElement = parentElement;
+    const markup = `
         <div class="spinner">
           <svg>
             <use href="${this.icons}#icon-loader"></use>
           </svg>
         </div>
       `;
-      
-      this.clear(); // очищаем родителя
-      this.parentElement.insertAdjacentHTML('afterbegin', markup);
-    }
-    
-    
-    // метод отображения ошибок
-    renderError(message = this.errorMessage)
-    {
-        const markup = `
+    this.clear(); // очищаем родителя
+
+    this.parentElement.insertAdjacentHTML('afterbegin', markup);
+  } // метод отображения ошибок
+
+
+  renderError(message) {
+    const markup = `
             <div class="error">
                 <div>
                   <svg>
-                    <use href="${icons}#icon-alert-triangle"></use>
+                    <use href="${this.icons}#icon-alert-triangle"></use>
                   </svg>
                 </div>
                 <p>${message}</p>
             </div>
         `;
-        
-        this.clear(); // очищаем родителя
-        this.parentElement.insertAdjacentHTML('afterbegin', markup);
-    }
-    
-    
-    // метод вывода сообщения
-    renderMessage(message = this.message)
-    {
-        const markup = `
-            <div class="message">
-                <div>
-                  <svg>
-                    <use href="${icons}#icon-smile"></use>
-                  </svg>
-                </div>
-                <p>${message}</p>
-            </div>
-        `;
-        
-        this.clear(); // очищаем родителя
-        this.parentElement.insertAdjacentHTML('afterbegin', markup);
-    }
-    
-    
-  	// слушатели событий
-  	addHandlerRender(handler)
-  	{
-    	const events = ['hashchange', 'load']; // указываем события, при которых будет срабатывать обработчик
-		events.forEach( event => window.addEventListener(event, handler)); // вешаем обработчик в цикле
-    }
-  
-  
-    // метод генерации выходных данных шаблона
-    generateMarkup()
-    {
-        return `
+    this.clear(); // очищаем родителя
+
+    this.parentElement.insertAdjacentHTML('afterbegin', markup);
+  } // слушатели событий
+
+
+  addHandlerRender(handler) {
+    const events = ['hashchange', 'load']; // указываем события, при которых будет срабатывать обработчик
+
+    events.forEach(event => window.addEventListener(event, handler)); // вешаем обработчик в цикле
+  } // метод генерации выходных данных шаблона
+
+
+  generateMarkup() {
+    return `
           <figure class="recipe__fig">
             <img src="${this.data.image}" alt="${this.data.title}" class="recipe__img" />
             <h1 class="recipe__title">
@@ -175,25 +153,27 @@ class RecipeView
             </a>
           </div>
         `;
-    
-    }
-  	
-  	
-  	// метод отображения ингридиентов
-  	generateIngredients(ing) {
-          return `
+  } // метод отображения ингридиентов
+
+
+  generateIngredients(ing) {
+    return `
             <li class="recipe__ingredient">
               <svg class="recipe__icon">
-                <use href="${icons}#icon-check"></use>
+                <use href="${_icons.default}#icon-check"></use>
               </svg>
-              <div class="recipe__quantity">${ing.quantity ? new Fraction(ing.quantity).toString() : ''}</div>
+              <div class="recipe__quantity">${ing.quantity ? new _fractional.Fraction(ing.quantity).toString() : ''}</div>
               <div class="recipe__description">
                 <span class="recipe__unit">${ing.unit}</span>
                 ${ing.description}
               </div>
             </li>
             `;
-        }
+  }
+
 }
 
-export default new RecipeView(); // экспортируем объект
+var _default = new RecipeView(); // экспортируем объект
+
+
+exports.default = _default;

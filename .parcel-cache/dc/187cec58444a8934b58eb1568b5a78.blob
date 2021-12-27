@@ -471,7 +471,7 @@ const controlRecipe = async function () {
     _recipeView.default.render(model.state.recipe, _icons.default, recipeContainer);
   } catch (err) {
     // вызываем метод отображения ошибки
-    _recipeView.default.renderError();
+    _recipeView.default.renderError(``);
   }
 }; // const events = ['hashchange', 'load']; // указываем события, при которых будет срабатывать обработчик
 // events.forEach( event => window.addEventListener(event, controlRecipe)); // вешаем обработчик в цикле
@@ -1823,7 +1823,8 @@ const loadRecipe = async function (id) {
     };
     console.log(state.recipe);
   } catch (err) {
-    throw err; // пробрасываем ошибку в контроллер 
+    // console.error(`O_Ops ${err.message}`);
+    throw err;
   }
 };
 
@@ -1891,9 +1892,6 @@ class RecipeView {
 
   parentElement; // родитель, куда вставляем данные
 
-  errorMessage = `We could not find this recipe. Please try another one!`;
-  message = '';
-
   render(data, icons, parentElement) {
     // заполняем объект свойствами
     this.data = data;
@@ -1927,31 +1925,12 @@ class RecipeView {
   } // метод отображения ошибок
 
 
-  renderError() {
-    let message = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.errorMessage;
+  renderError(message) {
     const markup = `
             <div class="error">
                 <div>
                   <svg>
                     <use href="${_icons.default}#icon-alert-triangle"></use>
-                  </svg>
-                </div>
-                <p>${message}</p>
-            </div>
-        `;
-    this.clear(); // очищаем родителя
-
-    this.parentElement.insertAdjacentHTML('afterbegin', markup);
-  } // метод вывода сообщения
-
-
-  renderMessage() {
-    let message = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.message;
-    const markup = `
-            <div class="message">
-                <div>
-                  <svg>
-                    <use href="${_icons.default}#icon-smile"></use>
                   </svg>
                 </div>
                 <p>${message}</p>

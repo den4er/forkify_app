@@ -34,7 +34,8 @@ const controlRecipe = async function () {
     
 
   } catch (err) {
-    console.log(err);
+    // вызываем метод отображения ошибки
+    recipeView.renderError();
   }
 }
 
