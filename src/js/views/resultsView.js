@@ -5,11 +5,15 @@ class ResultsView extends View
 {
   	// задаем родительский элемент
 	parentElement = document.querySelector('.results');
+    errorMessage = `No recipes found for your query!`;
+  	message = '';
   
   	// формируем данные для отображения
   	generateMarkup()
 	{
       	console.log(this.data);
+      	//if(!data[0]) return;
+      
       	return this.data.map(recipe => {
         	return `
               <li class="preview">

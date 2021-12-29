@@ -6,6 +6,7 @@ export default class View
   
     render(data)
     {
+      	if(!data || (Array.isArray(data) && data.length === 0) ) return this.renderError();
       	this.data = data;
 	    const markup = this.generateMarkup(); // генерируем блок
         this.clear(); // очищаем родителя

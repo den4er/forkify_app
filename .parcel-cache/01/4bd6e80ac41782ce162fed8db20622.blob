@@ -495,6 +495,8 @@ const controlSearchResults = async function () {
 
     await model.loadSearchResults(query); // отображаем данные
 
+    console.log(model);
+
     _resultsView.default.render(model.state.search.results);
   } catch (err) {
     console.log(err);
@@ -2456,7 +2458,6 @@ class View {
   data;
 
   render(data) {
-    if (!data || Array.isArray(data) && data.length === 0) return this.renderError();
     this.data = data;
     const markup = this.generateMarkup(); // генерируем блок
 
@@ -2583,8 +2584,7 @@ class ResultsView extends _View.default {
   message = ''; // формируем данные для отображения
 
   generateMarkup() {
-    console.log(this.data); //if(!data[0]) return;
-
+    console.log(this.data);
     return this.data.map(recipe => {
       return `
               <li class="preview">
