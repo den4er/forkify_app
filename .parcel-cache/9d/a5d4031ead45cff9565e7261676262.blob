@@ -1,0 +1,78 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+class View {
+  render(data, icons, parentElement) {
+    // заполняем объект свойствами
+    this.data = data;
+    this.icons = icons;
+    this.parentElement = parentElement;
+    const markup = this.generateMarkup(); // генерируем блок
+
+    this.clear(); // очищаем родителя
+
+    this.parentElement.insertAdjacentHTML('afterbegin', markup); // вставляем блок на страницу
+  } // метод очистки контейнера
+
+
+  clear() {
+    this.parentElement.innerHTML = '';
+  } // метод отображения спиннера
+
+
+  renderSpinner() {
+    const markup = `
+        <div class="spinner">
+          <svg>
+            <use href="${icons}#icon-loader"></use>
+          </svg>
+        </div>
+      `;
+    this.clear(); // очищаем родителя
+
+    this.parentElement.insertAdjacentHTML('afterbegin', markup);
+  } // метод отображения ошибок
+
+
+  renderError() {
+    let message = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.errorMessage;
+    const markup = `
+            <div class="error">
+                <div>
+                  <svg>
+                    <use href="${icons}#icon-alert-triangle"></use>
+                  </svg>
+                </div>
+                <p>${message}</p>
+            </div>
+        `;
+    this.clear(); // очищаем родителя
+
+    this.parentElement.insertAdjacentHTML('afterbegin', markup);
+  } // метод вывода сообщения
+
+
+  renderMessage() {
+    let message = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.message;
+    const markup = `
+            <div class="message">
+                <div>
+                  <svg>
+                    <use href="${icons}#icon-smile"></use>
+                  </svg>
+                </div>
+                <p>${message}</p>
+            </div>
+        `;
+    this.clear(); // очищаем родителя
+
+    this.parentElement.insertAdjacentHTML('afterbegin', markup);
+  }
+
+}
+
+exports.default = View;

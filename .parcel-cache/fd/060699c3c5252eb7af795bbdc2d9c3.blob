@@ -1,0 +1,36 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+// класс для получения запроса пользователя
+class searchView {
+  // получаем родителя
+  parentEl = document.querySelector('.search'); // получаем значение в поле поиска
+
+  getQuery() {
+    const quert = this.parentEl.querySelector('.search__field').value;
+    this.clearInput();
+    return query;
+  } // вешаем обработчик на кнопку поиска
+
+
+  addHandlerSearch(handler) {
+    this.parentEl.addEventListener('submit', function (event) {
+      event.preventDefault();
+      handler();
+    });
+  } // очистка поля поиска
+
+
+  clearInput() {
+    this.parentEl.querySelector('.search__field').value = '';
+  }
+
+}
+
+var _default = new searchView();
+
+exports.default = _default;

@@ -1,0 +1,25 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+// класс для получения запроса пользователя
+class searchView {
+  // получаем родителя
+  parentEl = document.querySelector('.search'); // получаем значение в поле поиска
+
+  getQuery() {
+    this.parentEl.querySelector('.search__field').value;
+  }
+
+  addHandlerSearch(controlSearchResults) {
+    this.parentEl.querySelector('.search__btn').addEventListener('click', controlSearchResults);
+  }
+
+}
+
+var _default = new searchView();
+
+exports.default = _default;
